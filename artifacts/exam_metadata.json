@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "funExt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "var1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code/1_exam.sol": "exam"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code/1_exam.sol": {
+			"keccak256": "0x4ba69ba7ce78503aa86b792424ebebbb9bb4ea83709c2ac1a6dd85c9f98ec046",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bfc925dd43866281cc2da1c92b5eebde2bfec445382da642a8787db404bb48f1",
+				"dweb:/ipfs/QmPzU7rcy1gc4FkEHCT9y5v5RrZjEeYTSw819HmjPJ3HRb"
+			]
+		}
+	},
+	"version": 1
+}

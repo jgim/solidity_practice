@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code/1_function.sol": "Fundton"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code/1_function.sol": {
+			"keccak256": "0xbea1cb35d63afd3dff5f24e5c92720ea8533354b456f07c1f9fc69910cab8683",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://531995d2ee07711fd49a6e4e49983985aa2f573d5514b7d6700a95c654960ddd",
+				"dweb:/ipfs/QmbXBk5gusjWyUV8aVcA5BgDqNMSw2BCZVF8YzLQRPyAaK"
+			]
+		}
+	},
+	"version": 1
+}
