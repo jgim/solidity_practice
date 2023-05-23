@@ -136,7 +136,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code/grobal_var.sol": "GrobalPractice"
+			"grobal_var.sol": "GrobalPractice"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -150,7 +150,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"code/grobal_var.sol": {
+		"grobal_var.sol": {
 			"keccak256": "0xf4787883c23658ec5c3d6fe048ca490f4220a1e61569c4e340d14f8f0f8d2e2c",
 			"license": "MIT",
 			"urls": [

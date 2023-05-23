@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code/1_function.sol": "FunctionPractice"
+			"function.sol": "FunctionPractice"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -85,7 +85,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"code/1_function.sol": {
+		"function.sol": {
 			"keccak256": "0x649e9788252ad05ea9a815fe39c2d476e1349dbf78b33d3ac0ee6ca26698e164",
 			"license": "MIT",
 			"urls": [

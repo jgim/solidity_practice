@@ -6,8 +6,65 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "addArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "changeArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "c",
+				"name": "deleteArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "deleteArray2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getArray",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -19,19 +76,21 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "getLength",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "calculate1",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "settingArray",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -40,29 +99,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "calculate2",
-				"outputs": [
-					{
-						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "value",
+				"name": "testArray",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -87,7 +128,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"view.sol": "ExampleContract"
+			"array.sol": "ArrayTest"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -101,12 +142,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"view.sol": {
-			"keccak256": "0xbad92a27778e8ffc897dbba2e0bbce45e74befa69f71979ca6839b81d9c20a27",
-			"license": "MIT",
+		"array.sol": {
+			"keccak256": "0x404d0174ad1c315fcc0cf09ca01ce805cb9e55864758b07deed9b0745f9e8242",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://be732fe10b7d2e03c934cd5462d82df7ff4686ced50b664fc3a20dfdf759e039",
-				"dweb:/ipfs/Qmei4RGRpVrjLKEvX1Mn9nPJxnxzG8u7tLHAyNob862HQP"
+				"bzz-raw://fcfcb246dc6d03b3bdbea215ca1e6de9a9bdabc6fee5beba0fd0aedfe557443d",
+				"dweb:/ipfs/QmXxNumfY3hrMBuEPyEQsNRdHYma5bKRvA2vrnKcSKXqY4"
 			]
 		}
 	},

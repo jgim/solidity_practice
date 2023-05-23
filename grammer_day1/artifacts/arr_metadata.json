@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variable.sol": "exam1"
+			"1_배열.sol": "arr"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"variable.sol": {
-			"keccak256": "0x285ff3d173fecbde87eb5f4425c038851112aee8f6cb5da5eb05bad1cf51dd69",
+		"1_배열.sol": {
+			"keccak256": "0x0a811e245ae3c572c2bc45aebb9261f815eaefbf68e0ed6cb47e31a289d5312a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://610533354740e162b9ce65a3202560ae097d950f7a67baabd0d094a90ea668bf",
-				"dweb:/ipfs/QmYYHhJS2Vsck1XYwTtEb73xZSCvsex8Fpi3vEXRhCktEe"
+				"bzz-raw://e78ffd334a8fe41a6282d4e676a5f050ac83eaa4356754f8d0905adf16ac9d78",
+				"dweb:/ipfs/QmbgKH81om7wpTs8qzcB5ot53xeDwK8RJFvCV6yXsHLr1V"
 			]
 		}
 	},
